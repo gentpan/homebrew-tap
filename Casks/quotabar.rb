@@ -7,7 +7,7 @@ cask "quotabar" do
   desc "Menu-bar meter for AI coding provider quotas"
   homepage "https://github.com/gentpan/quotabar"
 
-  depends_on macos: ">= :sonoma"
+  depends_on macos: :sonoma
 
   app "QuotaBar.app"
 
