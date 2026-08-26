@@ -4,7 +4,11 @@ Homebrew tap for my macOS apps.
 
 ```bash
 brew tap gentpan/tap
+brew trust gentpan/tap
 ```
+
+Homebrew 6 refuses to load casks from an untrusted third-party tap, so the
+`trust` step is required — without it `brew install` stops with an error.
 
 ## Casks
 
@@ -16,4 +20,5 @@ brew tap gentpan/tap
 brew install --cask quotabar
 ```
 
-Requires macOS 14 (Sonoma) or later.
+Requires macOS 14 (Sonoma) or later. Signed with a Developer ID certificate
+and notarized by Apple.
