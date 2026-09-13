@@ -1,6 +1,6 @@
 cask "quotabar" do
-  version "0.5.0"
-  sha256 "620f08216308268f47c0f550e1ff8a927c820ac9051f1a79284ed487e0848328"
+  version "0.5.1"
+  sha256 "37f72fa4c15c4884fb3f2220705f33d16d312f8798873ff8231001ad8ce0127c"
 
   url "https://github.com/gentpan/quotabar/releases/download/v#{version}/QuotaBar-#{version}.zip"
   name "QuotaBar"
