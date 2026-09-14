@@ -1,9 +1,9 @@
 cask "clistate" do
-  version "0.1.0"
-  sha256 "11791f5323560ed829cfb457cc80aad6f3f7c06be091b7f46ead0de844b296b0"
+  version "0.2.1"
+  sha256 "50b4681c98fe8f70a2aa09bafbf58d8979afdbea081782d9de85866fb472f0a6"
 
   url "https://github.com/gentpan/CLIState/releases/download/v#{version}/CLIState-#{version}.zip"
-  name "CLIState"
+  name "CLI State"
   desc "Shows installed CLI tools and which version the terminal runs"
   homepage "https://github.com/gentpan/CLIState"
 
