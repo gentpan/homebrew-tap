@@ -1,11 +1,11 @@
 cask "quotabar" do
-  version "0.5.8"
-  sha256 "830f1a0089097f71c76ecd41d3cabbf6f0ab945a77e68e62701704de359228b0"
+  version "0.5.9"
+  sha256 "410e54d08803509c8798097e6f15c0745562762d0cca02d6c600bcbac52e78fc"
 
-  url "https://github.com/gentpan/QuotaBar/releases/download/v#{version}/QuotaBar-#{version}.zip"
+  url "https://github.com/QuotaBar/QuotaBar/releases/download/v#{version}/QuotaBar-#{version}.zip"
   name "QuotaBar"
   desc "Menu-bar meter for AI coding provider quotas"
-  homepage "https://github.com/gentpan/QuotaBar"
+  homepage "https://github.com/QuotaBar/QuotaBar"
 
   depends_on macos: :sonoma
 
