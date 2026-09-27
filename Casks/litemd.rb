@@ -1,6 +1,6 @@
 cask "litemd" do
-  version "0.1.1"
-  sha256 "7cd505e5eb6683008097c1696e903ed31553a3d51a41136176e8603ee1e89f14"
+  version "0.1.2"
+  sha256 "32d8ee04d03044a1172f8dbafca0ec5f713f40bcc9cd6fe2629ecb85c94447d4"
 
   url "https://github.com/gentpan/LiteMD/releases/download/v#{version}/LiteMD-#{version}.dmg"
   name "LiteMD"
