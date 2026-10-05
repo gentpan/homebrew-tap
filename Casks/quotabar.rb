@@ -1,6 +1,6 @@
 cask "quotabar" do
-  version "0.5.22"
-  sha256 "ac36363f5c594baf18172a1a32f934e8a0d7b1cd7907e51164372043a4a6ac58"
+  version "0.5.23"
+  sha256 "307af3ce65a3568604fdcaf70861e3a22bad37eeaed3f457d87780f0a51b3f10"
 
   url "https://github.com/QuotaBar/QuotaBar/releases/download/v#{version}/QuotaBar-#{version}.zip"
   name "QuotaBar"
