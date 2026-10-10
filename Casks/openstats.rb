@@ -1,9 +1,9 @@
 cask "openstats" do
   arch arm: "AppleSilicon", intel: "Intel"
 
-  version "0.6.3"
-  sha256 arm:   "e77fa0b880fa665747481a0a856b86a883ed6003c8b4c0eefbb10b6b70900c9a",
-         intel: "8f88956af07ab14613c315631caa59dfce9b47aac57f46f84c78486d2d401e5d"
+  version "0.6.4"
+  sha256 arm:   "d155128f1bba329d4ec959c5bdd6989db7d860890c235f86d5d21e124aae6cbc",
+         intel: "7fa99043e64bcbcd8aee5613426451b6c0955b3513764c65503d5eefec6af604"
 
   url "https://getopenstats.com/download/OpenStats-#{version}-#{arch}.dmg"
   name "OpenStats"
