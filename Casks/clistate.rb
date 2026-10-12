@@ -1,6 +1,6 @@
 cask "clistate" do
   version "0.2.3"
-  sha256 "caa1ed263fff4fbf409236167b94c2ce8cb32bee2457c9d4df04939a2ea0ce00"
+  sha256 "1bff820a4782f6cf602d91752c9893f5dd4e6634d6a3bd4674ce2acb2ebd6763"
 
   url "https://github.com/gentpan/CLIState/releases/download/v#{version}/CLIState-#{version}.zip"
   name "CLI State"
